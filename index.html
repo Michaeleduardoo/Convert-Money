@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/money.webp">
+    <link rel="stylesheet" href="./styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Money</title>
+</head>
+
+<body>
+
+    <div id="conteiner">
+
+        <header>
+            <h1> Convert Money</h1>
+        </header>
+
+        <main>
+
+            <label>
+
+                Converter <strong>de</strong>
+                
+                    <p>
+                        R$ Real brasileiro
+                    </p>
+                
+            </label>
+
+            <label>
+                Converter <strong>para</strong>
+
+                <select id="choose">
+                    <option>
+                        US$ Dólar americano
+                    </option>
+
+                    <option >
+                        € Euro
+                    </option>
+
+                    <option >
+                        ₿ Bitcoin
+                    </option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+
+                <input id="input-value" type="number" placeholder=" Ex: R$ 10.000,00">
+            </label>
+
+            <button>Converter</button>
+
+            <section id="box">
+                <div>
+                    <img src="./img/brasil.png" class="img-brasil" alt="Brasil">
+                    <span id="span-One">Real</span>
+                    <h2 id="value-real">R$ 0.00</h2>
+                </div>
+
+                <i class='bx bxs-chevrons-down'></i>
+
+                <div>
+                    <img src="./img/estados-unidos.png" class="img-dinherio" alt="Pais">
+                    <span id="span-Two">Dólar Americano</span>
+                    <h2 id="value-Money">US$ 0.00</h2>
+                </div>
+            </section>
+        </main>
+
+
+
+    </div>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
