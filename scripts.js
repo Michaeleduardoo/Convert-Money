@@ -43,7 +43,7 @@ const country = () => {
 
 }
 
-button.addEventListener("click", country)
+
 
 
 select.addEventListener("change", () => {
@@ -65,4 +65,7 @@ select.addEventListener("change", () => {
 
     }
 
+    country()
 })
+
+button.addEventListener("click", country)
