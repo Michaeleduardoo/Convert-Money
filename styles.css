@@ -172,3 +172,29 @@ i{
     margin-bottom: 10px;
     color: #778899 ;
 }
+
+
+@media screen and (max-width:500px){
+    #conteiner {
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    #conteiner {
+        width: 330px;
+    }
+    h1 {
+        font-size: 39px;
+    }
+}
+
+@media screen and (max-width:300px){
+    #conteiner {
+        width: 250px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+}
